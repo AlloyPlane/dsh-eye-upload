@@ -1,0 +1,8 @@
+# dsh bundle layer: mount the eye-upload plugin (dsh/index.js via the
+# package root export). Routes: POST /dsh-eye-upload (image -> workspace
+# path), GET /dsh-eye-upload/config. The client adds a "📷" button to the
+# composer tool row that uploads a picked image and fills the draft with
+# its path so the vision bridge (image_understand) can read it.
+- insert:
+    - id: eye-upload
+      name: 'dsh-eye-upload'

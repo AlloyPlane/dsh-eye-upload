@@ -1,0 +1,45 @@
+{
+  "name": "dsh-eye-upload",
+  "version": "1.0.0",
+  "description": "dsh 眼睛（image_understand）配套上传插件：在聊天输入框加“📷 发图给眼睛”按钮，把图片存到工作区并自动把路径填入输入框，纯文本模型即可看图。可随时禁用或移除。",
+  "type": "module",
+  "main": "./dsh/index.js",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./client": "./client/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dsh",
+    "client",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "vision",
+    "image",
+    "plugin",
+    "眼睛",
+    "看图"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  }
+}
