@@ -157,6 +157,14 @@ A: 任何通过 `image_understand`（free-vision 的 youtu-vita / qwen3-vl 等�
 
 ---
 
+---
+
+## 🔍 搜索关键词
+
+DeepSeek Harness（DSH）· dsh 插件 · 眼睛 · 看图 · 发图 · 图片上传 · 视觉 · 多模态 · 纯文本模型看图 · image_understand · vision plugin · image upload · multimodal · screenshot analysis · OCR · MCP
+
+用这些词在 GitHub 搜索就能找到这个仓库。
+
 ## 📄 License
 
 [MIT](LICENSE) © 2026 [AlloyPlane](https://github.com/AlloyPlane)
